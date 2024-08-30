@@ -1,0 +1,87 @@
+Information: Propagating switching activity (high effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort high
+Design : DMAC_TOP
+Version: Q-2019.12-SP5-5
+Date   : Mon May 15 13:59:34 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed32lvt_ss0p75v125c (File: /home/ScalableArchiLab/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_ss0p75v125c.db)
+
+
+Operating Conditions: ss0p75v125c   Library: saed32lvt_ss0p75v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+DMAC_TOP               70000             saed32lvt_ss0p75v125c
+DMAC_CFG               8000              saed32lvt_ss0p75v125c
+DMAC_ARBITER_N_MASTER4_DATA_SIZE45_1
+                       8000              saed32lvt_ss0p75v125c
+DMAC_ARBITER_N_MASTER4_DATA_SIZE41
+                       8000              saed32lvt_ss0p75v125c
+DMAC_ENGINE_3          16000             saed32lvt_ss0p75v125c
+DMAC_FIFO_3            8000              saed32lvt_ss0p75v125c
+DMAC_ARBITER_N_MASTER4_DATA_SIZE45_0
+                       8000              saed32lvt_ss0p75v125c
+DMAC_ENGINE_0          16000             saed32lvt_ss0p75v125c
+DMAC_ENGINE_1          16000             saed32lvt_ss0p75v125c
+DMAC_ENGINE_2          16000             saed32lvt_ss0p75v125c
+DMAC_FIFO_0            8000              saed32lvt_ss0p75v125c
+DMAC_FIFO_1            8000              saed32lvt_ss0p75v125c
+DMAC_FIFO_2            8000              saed32lvt_ss0p75v125c
+DMAC_ENGINE_0_DW01_add_0
+                       ForQA             saed32lvt_ss0p75v125c
+DMAC_ENGINE_0_DW01_add_1
+                       ForQA             saed32lvt_ss0p75v125c
+DMAC_ENGINE_1_DW01_add_0_DW01_add_2
+                       ForQA             saed32lvt_ss0p75v125c
+DMAC_ENGINE_1_DW01_add_1_DW01_add_3
+                       8000              saed32lvt_ss0p75v125c
+DMAC_ENGINE_2_DW01_add_0_DW01_add_4
+                       ForQA             saed32lvt_ss0p75v125c
+DMAC_ENGINE_2_DW01_add_1_DW01_add_5
+                       8000              saed32lvt_ss0p75v125c
+DMAC_ENGINE_3_DW01_add_0_DW01_add_6
+                       ForQA             saed32lvt_ss0p75v125c
+DMAC_ENGINE_3_DW01_add_1_DW01_add_7
+                       8000              saed32lvt_ss0p75v125c
+
+
+Global Operating Voltage = 0.75 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   1.6915 mW   (99%)
+  Net Switching Power  =  17.3921 uW    (1%)
+                         ---------
+Total Dynamic Power    =   1.7089 mW  (100%)
+
+Cell Leakage Power     =   1.1761 mW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       1.6672e+03        1.9450e-02        3.9998e+08        2.0672e+03  (  71.66%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational     24.2317           17.3727        7.7613e+08          817.7320  (  28.34%)
+--------------------------------------------------------------------------------------------------
+Total          1.6914e+03 uW        17.3922 uW     1.1761e+09 pW     2.8849e+03 uW
+1

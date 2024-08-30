@@ -1,0 +1,142 @@
+ 
+****************************************
+Report : cell
+Design : DMAC_TOP
+Version: Q-2019.12-SP5-5
+Date   : Mon May 15 13:59:35 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U11                       AO22X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.541440  
+U12                       AO22X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.541440  
+U13                       AND2X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.033152  
+U22                       AND2X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.033152  
+U26                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U28                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U30                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U33                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U34                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U35                       NAND2X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.524864  
+U36                       IBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.541440  
+U37                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U38                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U39                       INVX0_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U40                       AO21X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.541440  
+U41                       NOR3X0_LVT      saed32lvt_ss0p75v125c
+                                                          2.795584  
+U42                       INVX0_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U43                       OR3X1_LVT       saed32lvt_ss0p75v125c
+                                                          2.287296  
+U44                       NOR2X0_LVT      saed32lvt_ss0p75v125c
+                                                          2.541440  
+U45                       NAND2X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.524864  
+U46                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U47                       INVX0_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U48                       OR2X2_LVT       saed32lvt_ss0p75v125c
+                                                          2.287296  
+U49                       OR2X2_LVT       saed32lvt_ss0p75v125c
+                                                          2.287296  
+U50                       INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U51                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U52                       AND3X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.287296  
+U53                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U54                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U55                       AND2X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.033152  
+U56                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U57                       INVX0_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U58                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U59                       INVX0_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U60                       INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U61                       INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U62                       INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U63                       INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U64                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U65                       NAND3X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.779008  
+U66                       NAND2X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.524864  
+U67                       NAND2X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.524864  
+U68                       NAND2X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.524864  
+U69                       NAND3X0_LVT     saed32lvt_ss0p75v125c
+                                                          1.779008  
+U70                       AND2X1_LVT      saed32lvt_ss0p75v125c
+                                                          2.033152  
+U71                       OR2X1_LVT       saed32lvt_ss0p75v125c
+                                                          2.033152  
+U72                       INVX0_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U73                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U74                       NBUFFX2_LVT     saed32lvt_ss0p75v125c
+                                                          2.033152  
+U131                      INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+U132                      INVX1_LVT       saed32lvt_ss0p75v125c
+                                                          1.270720  
+channel[0].u_engine       DMAC_ENGINE_3                   8882.841295
+                                                                    h, n
+channel[1].u_engine       DMAC_ENGINE_2                   8689.945989
+                                                                    h, n
+channel[2].u_engine       DMAC_ENGINE_1                   8878.774993
+                                                                    h, n
+channel[3].u_engine       DMAC_ENGINE_0                   8644.454226
+                                                                    h, n
+u_ar_arbiter              DMAC_ARBITER_N_MASTER4_DATA_SIZE45_1
+                                                          2078.897944
+                                                                    h, n, p
+u_aw_arbiter              DMAC_ARBITER_N_MASTER4_DATA_SIZE45_0
+                                                          2057.295705
+                                                                    h, n, p
+u_cfg                     DMAC_CFG                        4228.702095
+                                                                    h, n
+u_w_arbiter               DMAC_ARBITER_N_MASTER4_DATA_SIZE41
+                                                          2210.036257
+                                                                    h, n, p
+--------------------------------------------------------------------------------
+Total 59 cells                                            45767.777371
+1

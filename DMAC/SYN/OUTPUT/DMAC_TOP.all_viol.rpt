@@ -1,0 +1,22 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'DMAC_TOP' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : DMAC_TOP
+Version: Q-2019.12-SP5-5
+Date   : Mon May 15 13:59:30 2023
+****************************************
+
+
+    Design: DMAC_TOP
+
+    max_area           0.0000000000
+  - Current Area       57998.0156250000
+  ------------------------------
+    Slack              -57998.0156250000  (VIOLATED)
+
+
+1

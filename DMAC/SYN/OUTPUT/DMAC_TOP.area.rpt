@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : area
+Design : DMAC_TOP
+Version: Q-2019.12-SP5-5
+Date   : Mon May 15 13:59:30 2023
+****************************************
+
+Library(s) Used:
+
+    saed32lvt_ss0p75v125c (File: /home/ScalableArchiLab/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_ss0p75v125c.db)
+
+Number of ports:                         3433
+Number of nets:                         17933
+Number of cells:                        14326
+Number of combinational cells:          11414
+Number of sequential cells:              2774
+Number of macros/black boxes:               0
+Number of buf/inv:                       4122
+Number of references:                      23
+
+Combinational area:              27230.513449
+Buf/Inv area:                     7671.845254
+Noncombinational area:           18537.263922
+Macro/Black Box area:                0.000000
+Net Interconnect area:           12230.236358
+
+Total cell area:                 45767.777371
+Total area:                      57998.013729
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  ------------------------------------
+DMAC_TOP                          45767.7774    100.0     96.8289      0.0000  0.0000  DMAC_TOP
+channel[0].u_engine                8882.8413     19.4    854.9404    574.8737  0.0000  DMAC_ENGINE_3
+channel[0].u_engine/add_141         206.1108      0.5    206.1108      0.0000  0.0000  DMAC_ENGINE_3_DW01_add_1_DW01_add_7
+channel[0].u_engine/add_159         196.9616      0.4    196.9616      0.0000  0.0000  DMAC_ENGINE_3_DW01_add_0_DW01_add_6
+channel[0].u_engine/u_fifo         7049.9547     15.4   3576.5686   3473.3862  0.0000  DMAC_FIFO_3
+channel[1].u_engine                8689.9460     19.0    857.4819    574.8737  0.0000  DMAC_ENGINE_2
+channel[1].u_engine/add_141         205.3484      0.4    205.3484      0.0000  0.0000  DMAC_ENGINE_2_DW01_add_1_DW01_add_5
+channel[1].u_engine/add_159         184.0003      0.4    184.0003      0.0000  0.0000  DMAC_ENGINE_2_DW01_add_0_DW01_add_4
+channel[1].u_engine/u_fifo         6868.2418     15.0   3395.3639   3472.8779  0.0000  DMAC_FIFO_2
+channel[2].u_engine                8878.7750     19.4    834.1006    574.8737  0.0000  DMAC_ENGINE_1
+channel[2].u_engine/add_141         202.5528      0.4    202.5528      0.0000  0.0000  DMAC_ENGINE_1_DW01_add_1_DW01_add_3
+channel[2].u_engine/add_159         198.9948      0.4    198.9948      0.0000  0.0000  DMAC_ENGINE_1_DW01_add_0_DW01_add_2
+channel[2].u_engine/u_fifo         7068.2531     15.4   3594.3587   3473.8944  0.0000  DMAC_FIFO_1
+channel[3].u_engine                8644.4542     18.9    811.2277    574.8737  0.0000  DMAC_ENGINE_0
+channel[3].u_engine/add_141         200.5196      0.4    200.5196      0.0000  0.0000  DMAC_ENGINE_0_DW01_add_1
+channel[3].u_engine/add_159         194.6743      0.4    194.6743      0.0000  0.0000  DMAC_ENGINE_0_DW01_add_0
+channel[3].u_engine/u_fifo         6863.1589     15.0   3390.7893   3472.3696  0.0000  DMAC_FIFO_0
+u_ar_arbiter                       2078.8979      4.5   2065.6825     13.2155  0.0000  DMAC_ARBITER_N_MASTER4_DATA_SIZE45_1
+u_aw_arbiter                       2057.2957      4.5   2044.0802     13.2155  0.0000  DMAC_ARBITER_N_MASTER4_DATA_SIZE45_0
+u_cfg                              4228.7021      9.2   1923.1077   2305.5944  0.0000  DMAC_CFG
+u_w_arbiter                        2210.0363      4.8   2196.8208     13.2155  0.0000  DMAC_ARBITER_N_MASTER4_DATA_SIZE41
+--------------------------------  ----------  -------  ----------  ----------  ------  ------------------------------------
+Total                                                  27230.5134  18537.2639  0.0000
+
+1
